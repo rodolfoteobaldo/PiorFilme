@@ -9,7 +9,7 @@
    
    dotnet build
    
-   dotnet run --project PiorFilme
+   dotnet run --project src/PiorFilme.Api
    ```
 
 2. **Alterar os dados no arquivo**: src/PiorFilme.Api/Context/SeedData/movies.csv

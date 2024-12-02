@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiorFilme.Api", "src\PiorFilme.Api\PiorFilme.Api.csproj", "{2543B65D-3BE9-47D5-95EB-B8BBE61E7FE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{184825CD-7A9E-4885-99B6-B35EE507EF81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A9B037EE-3665-49F3-A024-012A6A1F1D25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiorFilme.IntegrationTests", "tests\PiorFilme.IntegrationTests\PiorFilme.IntegrationTests.csproj", "{7CFC6A33-F773-4F12-A394-72410896DBBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2543B65D-3BE9-47D5-95EB-B8BBE61E7FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2543B65D-3BE9-47D5-95EB-B8BBE61E7FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2543B65D-3BE9-47D5-95EB-B8BBE61E7FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2543B65D-3BE9-47D5-95EB-B8BBE61E7FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFC6A33-F773-4F12-A394-72410896DBBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFC6A33-F773-4F12-A394-72410896DBBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFC6A33-F773-4F12-A394-72410896DBBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFC6A33-F773-4F12-A394-72410896DBBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2543B65D-3BE9-47D5-95EB-B8BBE61E7FE4} = {184825CD-7A9E-4885-99B6-B35EE507EF81}
+		{7CFC6A33-F773-4F12-A394-72410896DBBF} = {A9B037EE-3665-49F3-A024-012A6A1F1D25}
+	EndGlobalSection
+EndGlobal
